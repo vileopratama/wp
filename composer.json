@@ -5,7 +5,10 @@
     "license": "MIT",
     "type": "project",
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "propel/propel": "~2.0@dev",
+        "wp/framework": "^1.0",
+        "vlucas/phpdotenv": "~2.4"
     },
     "authors": [
         {
@@ -17,7 +20,7 @@
    
     "autoload": {
         "psr-4": {
-            "App\\": "app/"
+            "Addons\\": "addons/"
         }
     },
     "config": {
