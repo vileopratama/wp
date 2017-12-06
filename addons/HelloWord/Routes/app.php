@@ -1,13 +1,11 @@
 <?php
 return array (
     '/' => array (
-        'Addon' => 'HelloWord',
         'Controller' => 'PublicController',
-        'Method' => 'index/{$1}',
+        'Method' => 'index',
     ),
-    '/test' => array (
-        'Addon' => 'HelloWord',
+    'test' => array (
         'Controller' => 'PublicController',
-        'Method' => 'index/{$1}',
+        'Method' => 'test',
     )
 );

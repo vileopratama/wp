@@ -7,11 +7,11 @@ define("BASE_PATH", __DIR__ . '/../');
 /*
 Autoload Route 
 */
-
-
+//include __DIR__.'/../config/config.php';
 require __DIR__.'/../vendor/autoload.php';
-$app = new WP\Route\Route;
-
+$helper = new WP\Helpers\Helper;
+$app = new WP\Routes\Route;
+$app->init();
 
 
 

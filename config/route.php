@@ -1,4 +1,7 @@
 <?php 
 return array (
-    'default' => "/",
+    'default' => array(
+        'addon' => "HelloWord",
+        'route' => '/'
+    ),
 );
